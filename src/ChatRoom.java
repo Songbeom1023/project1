@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ChatRoom extends JFrame implements ActionListener {
+//    Client client = new Client(this);
     JLabel jb_north = new JLabel("North");
     JTextField jb_south = new JTextField();
     JButton jbt_send = new JButton("Send");
