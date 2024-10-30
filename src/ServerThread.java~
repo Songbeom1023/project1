@@ -22,8 +22,7 @@ public class ServerThread extends Thread {
     public void run() {
         try{
             ServerThread serverThread = new ServerThread(socket);
-            serverThread.start();
-            System.out.println("hello");
+            serverThread.start();ew
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
