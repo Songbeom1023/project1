@@ -1,0 +1,14 @@
+package model.vo;
+
+public class ZipCodeVO {
+    private int uid_no;
+    private int zipcode;
+    private String zdo;
+    private String sigu;
+    private String dong;
+    private String ri;
+    private String bungi;
+    private String aptname;
+    private String upt;
+    private String address;
+}

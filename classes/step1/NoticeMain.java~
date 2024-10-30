@@ -1,0 +1,18 @@
+package classes.step1;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class NoticeMain extends JFrame implements ActionListener {
+
+    public NoticeMain() {}
+    
+    public static void main(String[] args) {
+
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+    }
+}

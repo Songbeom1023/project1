@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -47,6 +49,7 @@ public class Client extends JFrame implements ActionListener {
 
     public void initDisplay(){
         btn_login.addActionListener(this);
+        System.out.println("gegewgw");
         btn_join.addActionListener(this);
         setContentPane(new Mypanel());
         this.setLayout(null);

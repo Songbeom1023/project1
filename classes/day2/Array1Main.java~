@@ -1,0 +1,13 @@
+package classes.day2;
+class Array1{
+    //원시형 타입의 1차 배열
+    //is.length -> 배열의 길이를 반환 = 원소 개수 반환 -> 3
+    //int -> 초기값 = 0, is
+    int is[] = new int[3];
+
+}
+public class Array1Main {
+    public static void main(String[] args) {
+
+    }
+}

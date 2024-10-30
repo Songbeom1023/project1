@@ -1,0 +1,21 @@
+package classes.day2;
+
+class ThisSub {
+    ThisMain tm = null;
+
+    public ThisSub(ThisMain tm) {
+        this.tm = tm;
+        System.out.println("서브");
+    }
+
+    public class ThisMain {
+        ThisSub ts = new ThisSub(this);
+
+        public ThisMain() {
+            System.out.println("메인");
+        }
+        public static void main(String[] args) {
+            new ThisMain();
+        }
+    }
+}

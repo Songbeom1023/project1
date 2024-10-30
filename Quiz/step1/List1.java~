@@ -1,0 +1,13 @@
+package Quiz.step1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class List1 {
+    public static void main(String[] args) {
+        //List -> 인터페이스 -> 구현체 클래스를 가지고 있음.
+        //즉, 인터페이스는 추상 
+        ArrayList<String> list = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+    }
+}

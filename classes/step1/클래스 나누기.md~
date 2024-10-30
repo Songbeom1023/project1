@@ -1,0 +1,14 @@
+###하나의 어플리케이션을 두 개의 클래스로 관리
+- NoticeMain / NoticeDialog
+
+
+1. NoticeMain -> JFrame 상속 / NoticeDialog -> JDialog 상속
+- NoticeMain 에서 사용하는 this 는 NoticeMain 과 JFrame 포함
+- NoticeDialog 에서 사용하는 this 는 NoticeDialog 와 JDialog 포함 
+2. 두 클래스 모두 화면 처리는 initDisplay() 활용 initDisplay()는 사용자 정의 함수이므로 this 사용 가능
+- static 이 있는 메소드에서는 this 사용이 불가 -> 즉, main 메소드에서 사용 불가
+3. main 메소드는 NoticeMain 에만 구현, NoticeDialog 쪽에서는 단위테스트 용도로 사용한 후 폐기
+4. 생성자 적극 활용 -> 객체 주입과 밀접한 관련 
+- 클래스와 클래스 사이에는 관계가 있다 = 두 클래스가 상속 관계가 아니더라도 업무적인 관계가 존재
+- 클래스 사이의 관계를 통해 업무에 대한 처리가 완성되어야 하므로 원본(얕은 복사)이 유지되도록 코드를 작성해야 함. 
+5. "하나"의 화면으로 입력, 상세보기, 수정 등 세 가지를 처리해 보는 실습이 필요

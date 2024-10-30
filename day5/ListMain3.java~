@@ -1,0 +1,24 @@
+package day5;
+
+import model.vo.Tomato_Member;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListMain3 {
+    public static void main(String[] args) {
+        List<Tomato_Member> list = new ArrayList<>();
+        Tomato_Member tomato = new Tomato_Member();
+        tomato.setMem_id("toamto");
+        tomato.setMem_pw("123");
+        tomato.setMem_nick("토마토");
+        tomato.setMem_name("김유신");
+        list.add(tomato);
+        System.out.println(tomato == list.get(0));
+        Tomato_Member kiwi = new Tomato_Member();
+        tomato.setMem_id("kiwi");
+        tomato.setMem_pw("123");
+        tomato.setMem_nick("키위");
+        list.add(tomato);
+    }
+}

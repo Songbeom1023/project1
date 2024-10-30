@@ -1,3 +1,5 @@
+package src;
+
 import athread.talk4.ServerThread;
 
 import java.io.IOException;
