@@ -30,6 +30,7 @@ public class Server {
                 ServerThread thread = new ServerThread(clientSocket);
                 list.add(thread);
                 System.out.println("Active connections: " + list.size());
+                System.out.println("hi");
                 thread.start();
                 count++;
 

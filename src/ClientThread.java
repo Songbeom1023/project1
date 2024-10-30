@@ -1,3 +1,5 @@
+package project1.src;
+
 import java.net.Socket;
 
 public class ClientThread extends Thread implements Runnable{
